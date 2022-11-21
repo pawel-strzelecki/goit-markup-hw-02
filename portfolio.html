@@ -1,165 +1,169 @@
 <!DOCTYPE html>
 <html lang="pl">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <meta charset="UTF-8" />
-    <title>WebStudio</title>
+    <title>Portfolio</title>
   </head>
   <body>
     <header>
-      <div>
-        <a href="index.html"><span>WebStudio</span></a>
-      </div>
-      <nav>
-        <a href="#">Agencja</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Kontakt</a>
-      </nav>
+      <section class="menu">
+        <div class="logo">
+          <a href="index.html">Web<span class="logo-menu">Studio</span></a>
+        </div>
+        <nav>
+          <a href="#">Agencja</a>
+          <a href="#">Portfolio</a>
+          <a href="#">Kontakt</a>
+        </nav>
 
-      <div>
-        <a href="mailto:info@devstudio.com"><span>info@devstudio.com</span></a>
-        <a href="tel:+48111111111"><span>+48 111 111 111</span></a>
-      </div>
+        <div class="contacts">
+          <a href="mailto:info@devstudio.com"><span>info@devstudio.com</span></a>
+          <a href="tel:+48111111111"><span>+48 111 111 111</span></a>
+        </div>
+      </section>
     </header>
     <main>
       <section>
         <div>
           <ul>
             <li>
-              <button type="button">Wszystkie</button>
+              <button type="button" class="main-button">Wszystkie</button>
             </li>
             <li>
-              <button type="button">Strony</button>
+              <button type="button" class="main-button">Strony</button>
             </li>
             <li>
-              <button type="button">Aplikacje</button>
+              <button type="button" class="main-button">Aplikacje</button>
             </li>
             <li>
-              <button type="button">Dizajn</button>
+              <button type="button" class="main-button">Dizajn</button>
             </li>
             <li>
-              <button type="button">Marketing</button>
+              <button type="button" class="main-button">Marketing</button>
             </li>
           </ul>
         </div>
-        <div>
-          <figure>
-            <img
-              src="images/technocrack-site.jpg"
-              alt="photo of a macbook with an opened website on it"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <span>Technocrack</span> <br />
-              Strona internetowa
-            </figcaption>
-          </figure>
-
-          <figure>
-            <img
-              src="images/basketball-design.jpg"
-              alt="nba basketball graphics with two players from two different teams fighting for the ball"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <span>Grafika New Orleans vs Golden State</span> <br />
-              Dizajn
-            </figcaption>
-          </figure>
-
-          <figure>
-            <img
-              src="images/restaurant-app.jpg"
-              alt="seafood restaurant logo"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <span>Restauracja Seafood</span> <br />
-              Aplikacja
-            </figcaption>
-          </figure>
-
-          <figure>
-            <img
-              src="images/project-marketing.jpg"
-              alt="project prime logo - headphones"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <span>Projekt Prime</span> <br />
-              Marketing
-            </figcaption>
-          </figure>
-          <figure>
-            <img src="images/boxes-app.jpg" alt="photo of little boxes" width="370" height="294" />
-            <figcaption>
-              <span>Projekt Boxes</span> <br />
-              Aplikacja
-            </figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/ihnb-site.jpg"
-              alt="photo of a macbook with an opened website on it"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <span>Inspiration has no Borders</span> <br />
-              Strona internetowa
-            </figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/mag-design.jpg"
-              alt="photo of a magazine cover"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <span>Magazyn Limited Edition</span> <br />
-              Dizajn
-            </figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/lab-marketing.jpg"
-              alt="photo of a label tag"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <span>Projekt LAB</span> <br />
-              Marketing
-            </figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/gb-app.jpg"
-              alt="photo of a laptop with growing business app running on it"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <span>Projekt Boxes</span> <br />
-              Aplikacja
-            </figcaption>
-          </figure>
-        </div>
       </section>
-    </main>
-    <footer>
       <div>
-        <a href="#"><span>WebStudio</span></a>
+        <figure>
+          <img
+            src="images/technocrack-site.jpg"
+            alt="photo of a macbook with an opened website on it"
+            width="370"
+            height="294"
+          />
+          <figcaption>
+            <span>Technocrack</span> <br />
+            Strona internetowa
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/basketball-design.jpg"
+            alt="nba basketball graphics with two players from two different teams fighting for the ball"
+            width="370"
+            height="294"
+          />
+          <figcaption>
+            <span>Grafika New Orleans vs Golden State</span> <br />
+            Dizajn
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/restaurant-app.jpg"
+            alt="seafood restaurant logo"
+            width="370"
+            height="294"
+          />
+          <figcaption>
+            <span>Restauracja Seafood</span> <br />
+            Aplikacja
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="images/project-marketing.jpg"
+            alt="project prime logo - headphones"
+            width="370"
+            height="294"
+          />
+          <figcaption>
+            <span>Projekt Prime</span> <br />
+            Marketing
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="images/boxes-app.jpg" alt="photo of little boxes" width="370" height="294" />
+          <figcaption>
+            <span>Projekt Boxes</span> <br />
+            Aplikacja
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/ihnb-site.jpg"
+            alt="photo of a macbook with an opened website on it"
+            width="370"
+            height="294"
+          />
+          <figcaption>
+            <span>Inspiration has no Borders</span> <br />
+            Strona internetowa
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/mag-design.jpg"
+            alt="photo of a magazine cover"
+            width="370"
+            height="294"
+          />
+          <figcaption>
+            <span>Magazyn Limited Edition</span> <br />
+            Dizajn
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="images/lab-marketing.jpg" alt="photo of a label tag" width="370" height="294" />
+          <figcaption>
+            <span>Projekt LAB</span> <br />
+            Marketing
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/gb-app.jpg"
+            alt="photo of a laptop with growing business app running on it"
+            width="370"
+            height="294"
+          />
+          <figcaption>
+            <span>Projekt Boxes</span> <br />
+            Aplikacja
+          </figcaption>
+        </figure>
       </div>
-      <address>
-        m. Warszawa, Aleje Jerozolimskie 21
-        <a href="mailto:info@example.com"><span>info@example.com</span></a>
-        <a href="tel:+48111111111"><span>+48 111 111 111</span></a>
-      </address>
+    </main>
+    <footer class="bottom">
+      <div class="logo">
+        <a href="#">Web<span class="logo-footer">Studio</span></a>
+      </div>
+      <address class="studio-address">m. Warszawa, Aleje Jerozolimskie 21</address>
+      <div class="contacts">
+        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a href="tel:+48111111111">+48 111 111 111</a>
+      </div>
     </footer>
   </body>
 </html>

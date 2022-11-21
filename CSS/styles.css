@@ -1,0 +1,106 @@
+body {
+    font-family: roboto; sans-serif;
+    color: #212121;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover, a:focus, a:active {
+    
+    color: #2196F3;
+}
+
+menu {
+    
+    width: 1600px;
+    height: 80px;
+}
+
+.logo {
+    font-family: raleway; sans-serif;
+    font-size: 26px;
+    line-height: 30.52px;
+    color: #2196F3;
+}
+    
+.logo-menu {
+    color: #000
+}
+
+.logo-footer {
+    color: #FFFFFF;
+}
+
+nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.banner {
+    width: 1600px;
+    height: 600px;
+    background: #2F303A;
+}
+.banner-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.main-button {
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px
+}
+.article-list {
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: ;
+}
+
+.article-text {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+.section-header {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: ;
+    text-align: center;
+}
+.team-name {
+    font-weight: 500;
+    line-height: ;
+}
+.team-job {
+    color: #757575;
+}
+.bottom {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+.studio-address {
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: ;
+}
